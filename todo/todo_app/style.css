@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form button {
+  transition: all 0.3s ease;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 8px 0 8px 0;
+  background-color: #9C9CB4;
+  border-radius: 0.75rem;
+  padding-left: 10px;
+  padding-right: 4px;
+  margin-bottom: 2px;
+  transition: all 1s ease;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+li {
+  width: 80%;
+}
+
+.todo button {
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo--check {
+  background: #4E4E80;
+  margin-right: 4px;
+  outline: none;
+}
+
+.todo--check:hover {
+  background-color: ;
+  border: #9C9CB4;
+}
+
+.completedLi {
+  color: #AAAAC4;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 3px 0 3px 0;
+  padding-left: 10px;
+  padding-right: 4px;
+  margin-bottom: 2px;
+  text-decoration: line-through;
+  transition: all 1s ease;
+}
+
+.fall {
+  transform: translateX(70%);
+  opacity: 0;
+}
